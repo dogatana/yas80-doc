@@ -18,16 +18,15 @@
 
 ### R800 命令
 
-- 命令
-    - [R800ユーザーズマニュアル 暫定版](https://d4.princess.ne.jp/msx/datas/R800UM/) に記載の命令
-    - 表記は zilog 表記
-    - Z80 にない乗算命令は `mulub`, `muluw` とも `mul` を使用する
+- [R800ユーザーズマニュアル 暫定版](https://d4.princess.ne.jp/msx/datas/R800UM/) に記載の命令
+- 表記は zilog 表記
+- Z80 にない乗算命令は `mulub`, `muluw` とも `mul` を使用します。
 
 
 | R800 命令表の表記 | yas80 での表記 |
-| --               | --             |
-| mulub a, r       | mul a, r       |
-| muluw hl, ss     | mul hl, ss     |
+| --                | --             |
+| mulub a, r        | mul a, r       |
+| muluw hl, ss      | mul hl, ss     |
 
 
 ### R800 TStates
@@ -36,10 +35,10 @@
 
 ### 表記揺らぎ対応
 
-- 本来の書式に加え、次の書式を許容する
-- IX の書式は IY も同様
+- 本来の書式に加え、次の書式を許容します。
+- IX とあるケースは IY にも適用されます。
 
-| 本来の書式      | 追加で許容する書式 |
+| 本来の書式      | 揺らぎとして許容する書式 |
 | --              | -- |
 | JP (IX)         | JP (IX + 0)     |
 | LD (IX + 0), op | LD (IX + 0), op |
