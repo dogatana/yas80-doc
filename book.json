@@ -1,5 +1,6 @@
 {
     "title": "yas80 docs",
     "language": "ja",
-	"root": "./docs-src"
+	"root": "./docs-src",
+    "plugins": ["collapsible-chapters"]
 }
