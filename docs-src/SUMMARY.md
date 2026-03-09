@@ -33,7 +33,7 @@
     * [組み込み関数](syntax.md#組み込み関数)
     * [シンボル](syntax.md#シンボル)
     * [予約語](syntax.md#予約語)
-    * [システム変数](syntax.md)
+    * [システム変数](syntax.md#システム変数)
     * [ラベル](syntax.md)
 * [ディレクティブ（疑似命令）](directive.md)
     * [ORG](directive.md#org)
