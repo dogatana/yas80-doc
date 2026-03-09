@@ -2,5 +2,8 @@
     "title": "yas80 docs",
     "language": "ja",
 	"root": "./docs-src",
-    "plugins": ["collapsible-chapters"]
+    "plugins": ["collapsible-chapters", "search-plus"],
+    "styles": {
+        "website": "styles/website.css"
+    }
 }

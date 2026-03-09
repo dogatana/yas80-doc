@@ -1,0 +1,13 @@
+#book-search-results span.search-highlight-keyword {
+  background: #ffa;
+}
+mark {
+  background: #ffa;
+}
+
+.book.font-family-0 {
+  font-family: 'Yu Mincho', 'YuMincho', 'Noto Serif JP', serif
+}
+.book.font-family-1 {
+  font-family: 'Yu Gothic', 'YuGothic', 'Noto Sans JP', sans
+}

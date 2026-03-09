@@ -2,6 +2,7 @@
   "dependencies": {
     "gitbook-plugin-collapsible-chapters": "^0.1.8",
     "gitbook-plugin-expandable-chapters": "^0.2.0",
-    "honkit": "^6.1.6"
+    "honkit": "^6.1.6",
+    "honkit-plugin-search-plus": "^1.0.0"
   }
 }
