@@ -6,7 +6,7 @@
 > yas80 -h
 Usage: yas80 [options] file [file...]
 Options:
-  -I, --I strings          directories to search for iclude
+  -I, --I strings          directories to search for include/incbin/charmap
   -D, --D strings          define numeric constants
   -o, --output string      output file name
       --mzt                output with MZT format
@@ -17,7 +17,7 @@ Options:
   -f, --fill int           filler for DS and Segment Gap (default 255)
   -R, --R800               assmble for R800
   -l, --l                  generate list file
-      --list string        list filename
+      --lst string         lst filename
   -m, --m                  generate map file
       --map string         map filename
   -s, --s                  generate symbol file
