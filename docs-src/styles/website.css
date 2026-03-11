@@ -21,6 +21,12 @@ table thead th {
   text-align: right;
 }
 
+.nowrap {
+  white-space:nowrap;
+}
+.m0 {
+  margin: 0 !important;;
+}
 code {
   background-color: transparent !important;
 }
